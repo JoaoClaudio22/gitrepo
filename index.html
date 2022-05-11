@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+        <title>Requisição API Github</title>
+    </head>
+    
+    <body>
+        <header>
+            <h1>GitRepo</h1> 
+        </header>
+        
+        <section id="showInfos" >
+            <div class="search-user">
+                <label for="inputUser">Qual usuário deseja pesquisar?</label>
+                <input id="inputUser" type="text">
+                <button onclick="loadApi()">
+                    <img src="assets/bx-right-arrow-alt.svg" alt="">
+                </button>
+            
+            </div>
+            
+        </section>      
+        
+         <section  id="main-list">
+            <hr/>
+            
+            <div class="user-infos">
+                <img id="avatar" src="" alt="foto do usuario"> 
+                <p id="userNameText"></p>
+            </div>
+            
+            <h2 id="total-repos"></h2>
+            <ul id="list">
+               
+            </ul>
+         </section>   
+        
+         <script src="script.js"></script>
+    </body>
+</html>
