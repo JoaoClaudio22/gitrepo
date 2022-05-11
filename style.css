@@ -8,6 +8,11 @@
     .search-user{
         flex-direction: column;
     }
+
+    #total-repos{
+        font-size: 1.2rem;
+    }
+
   } 
 
 body{
