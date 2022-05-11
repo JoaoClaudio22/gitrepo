@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 450px) {
+    .search-user{
+        flex-direction: column;
+    }
+  } 
+
 body{
     background-color: #070024;
     font-family: Arial, Helvetica, sans-serif;
